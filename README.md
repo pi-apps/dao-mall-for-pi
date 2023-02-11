@@ -1,15 +1,20 @@
 
 ### 项目介绍
 #### Pi DAO Mall领先企业级Pi Network开源电商系统！
-#### Demo  https://www.pidao.top      
+#### 源码（右侧发行版本下载）：
+https://github.com/PiDAOClub/Pi-DAO-Mall/releases/tag/PiDAOMall
+#### Pi浏览器演示链接：https://www.pidao.top      
 
 ### Project Introduction
 #### Pi DAO Mall is the leading enterprise-level open source e-commerce system of Pi Network!
-#### Demo https://www.pidao.top
+#### Source code (download the release version on the right)：
+https://github.com/PiDAOClub/Pi-DAO-Mall/releases/tag/PiDAOMall
+#### Pi Browser demo link：https://www.pidao.top
 
 
 * Realistic and enterprising, innovative and dedicated, independent research and development, domestic leading enterprise-level e-commerce system solutions.
-* Published under the MIT open source protocol, no authorization required, commercially available, secondary development possible, meeting 99% of e-commerce operation needs.
+* Published under the MIT open source protocol, no authorization required, commercially available, secondary development possible, meeting 99% of e-commerce 
+  operation needs.
 * Support PC+H5, small programs (Alipay, WeChat, Baidu, Toutiao & Douyin, QQ, Kuaishou), APP, etc...
 * Support multi-warehouse, multi-merchant, offline store mode operation (component plug-in, plug-and-play), visual DIY drag-and-drop decoration.
 
@@ -20,7 +25,6 @@
 
 
 ### Some features
-~~~
 1. Multiple modes: sales + self-pickup + virtual + display + sales/self-pickup, multi-warehouse independent inventory management, visual DIY drag-and-drop decoration
 2. Distribution: Level 1~3 can be configured, share to earn commissions, mini program product posters, pick-up points, commissions can be configured specific to SKU (proportion and fixed amount)
 3. Membership level: level discount (specific to product specifications), full discount, manual setting of membership level, paid purchase + renewal + three-level rebate

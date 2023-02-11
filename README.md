@@ -13,7 +13,7 @@
 * Support PC+H5, small programs (Alipay, WeChat, Baidu, Toutiao & Douyin, QQ, Kuaishou), APP, etc...
 * Support multi-warehouse, multi-merchant, offline store mode operation (component plug-in, plug-and-play), visual DIY drag-and-drop decoration.
 
-* 求实进取、创新专注、自主研发、国内领先企业级电商系统解决方案。
+* 求实进取、创新专注、领先企业级Pi支付电商系统解决方案。
 * 遵循MIT开源协议发布，无需授权、可商用、可二次开发、满足99%的电商运营需求。
 * 支持PC+H5，小程序（支付宝、微信、百度、头条&抖音、QQ、快手），APP等...
 * 支持多仓库、多商户、线下门店模式运营（组件插件化、即插即用），可视化DIY拖拽装修。
@@ -36,10 +36,8 @@
 13. Wholesale: ladder price, new purchase + repurchase separate configuration, free configuration infinite number ladder price, can be specific to specifications
 14. Store: order dispatch + order transfer + write-off + customer order + commodity + batch + sub-card + staff and salary automatic commission + recharge + cashier + desk code + O2O store operation mode, a perfect combination of online and offline , Applicable (catering + beauty salon + online reservation + store consumption + self-pickup + delivery + express delivery)
 15. Customer service: Online customer service system, support web page and applet directly initiate instant consultation
- …
 
 ### 部分功能特性
-~~~
 1. 多种模式：销售+自提+虚拟+展示+销售/自提，多仓库独立库存管理、可视化DIY拖拽装修
 2. 分销：可配置1~3级、分享赚取佣金、小程序商品海报、取货点、佣金可配置具体到SKU(比例和固定金额)
 3. 会员等级：等级折扣(具体到商品规格)、满减、手动设置会员等级、付费购买+续费+三级返佣

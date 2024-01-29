@@ -69,7 +69,7 @@
                     },
                     "weixin" : {
                         "__platform__" : [ "ios", "android" ],
-                        "appid" : "wx6dbf3235e1533335",
+                        "appid" : "",
                         "UniversalLinks" : "https://m.pidao.io/.well-known/"
                     },
                     "paypal" : {
@@ -83,12 +83,12 @@
                     "univerify" : {},
                     "apple" : {},
                     "weixin" : {
-                        "appid" : "wx6dbf3235e1533335",
-                        "appsecret" : "2e9cdda13569b14bb94c5484066b2e9e",
+                        "appid" : "",
+                        "appsecret" : "",
                         "UniversalLinks" : "https://m.pidao.io/.well-known/"
                     },
                     "qq" : {
-                        "appid" : "102087615",
+                        "appid" : "",
                         "UniversalLinks" : "https://m.pidao.io/.well-known/"
                     },
                     "google" : {
@@ -97,7 +97,7 @@
                 },
                 "maps" : {
                     "amap" : {
-                        "name" : "amap_18677190499B1MLU2c2G",
+                        "name" : "",
                         "appkey_ios" : "a60a3dee3c41826874d598ca93c988c2",
                         "appkey_android" : "6d36ac0cfa2eb95c1d270749bc166db4"
                     }
@@ -109,11 +109,11 @@
                 },
                 "share" : {
                     "weixin" : {
-                        "appid" : "wx6dbf3235e1533335",
+                        "appid" : "",
                         "UniversalLinks" : "https://m.pidao.io/.well-known/"
                     },
                     "qq" : {
-                        "appid" : "102087615",
+                        "appid" : "",
                         "UniversalLinks" : "https://m.pidao.io/.well-known/"
                     }
                 },
@@ -172,7 +172,7 @@
             "startLocationUpdate",
             "startLocationUpdateBackground"
         ],
-        "appid" : "wxda7779770f53e901",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false,
             "es6" : true,

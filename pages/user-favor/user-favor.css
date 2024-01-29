@@ -1,0 +1,12 @@
+.goods-base {
+    min-height: 160rpx;
+    margin-left: 180rpx;
+}
+.goods-image {
+    width: 160rpx;
+    height: 160rpx;
+}
+.operate-submit {
+    right: 20rpx;
+    bottom: 20rpx;
+}

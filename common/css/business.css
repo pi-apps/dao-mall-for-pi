@@ -1,0 +1,55 @@
+/*
+* 面板信息 - 文本
+*/
+.panel-item .panel-content .item:last-child {
+    border: 0 !important;
+    padding-bottom: 0 !important;
+}
+.panel-item .panel-content .item .title {
+    width: 25%;
+}
+.panel-item .panel-content .item .content {
+    width: calc(75% - 52rpx);
+    min-height: 46rpx;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.panel-item .panel-content .item .title,
+.panel-item .panel-content .item .content {
+    line-height: 46rpx;
+}
+.panel-item-only .panel-content .item .content {
+    width: 100%;
+}
+
+/*
+* 面板信息 - 图片
+*/
+.panel-item .panel-content-images .item {
+    margin: 20rpx 20rpx 0 0;
+}
+.panel-item .panel-content-images .item:last-child {
+    margin-right: 0;
+}
+.panel-item .panel-content-images .item image {
+    width: 120rpx;
+    height: 120rpx !important;
+}
+
+/**
+ * 地址边线
+ */
+.address-divider {
+    height: 4px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAECAYAAADWIIyPAAAAkklEQVR42mP4jwR+7tr1/4OzM1Xwt46O/6SA3Yd//HeLeU0V3DXjE0H7GGCMvw8f/v/o5UUVT39KTPz/78cPoj398Omf/75Jb6ji6ZSyd/9//PxHnMdBjvyUlEQVT4MC7++DB0R7GuTIlPJ3VPE0KPAePvlDlL1gj3/r6qJaEv+5YwdJSbxn5meqJfGdh74TbS8A1dn662xhNdIAAAAASUVORK5CYII=");
+    background-repeat-y: no-repeat;
+}
+
+/**
+ * 支付html弹窗
+ */
+.popup-pay-html-content {
+    max-height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

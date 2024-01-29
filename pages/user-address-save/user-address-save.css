@@ -1,0 +1,169 @@
+/*
+* 表单
+*/
+.form-container .form-gorup .form-gorup-title {
+    width: 120rpx;
+    font-weight: 500;
+}
+
+/*
+* 三级联动
+*/
+.select-address {
+    box-sizing: border-box;
+    height: 70rpx;
+    line-height: 70rpx;
+    padding: 0 10rpx;
+}
+
+.select-address .section {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.select-address .section:not(:first-child) {
+    padding: 0 5rpx;
+}
+
+/**
+ * 地址信息
+ */
+.default-checkbox image {
+    width: 35rpx;
+    height: 35rpx !important;
+}
+
+.address-value {
+    padding-right: 110rpx;
+}
+
+.intelligent-identification button {
+    width: 96rpx;
+    height: 44rpx;
+    line-height: 44rpx;
+}
+
+/*
+* 身份信息
+*/
+.idcard-container .form-gorup-title {
+    width: 200rpx !important;
+}
+
+.idcard-container .form-upload-data .item image {
+    width: 256rpx;
+    height: 170rpx;
+    border: 1px dashed #c2c2c2;
+}
+
+/**
+ * 地址编号搜索
+ */
+.code-search {
+    width: 220rpx;
+}
+
+.code-search input {
+    width: 100% !important;
+    border-radius: 50rpx !important;
+    padding-right: 106rpx;
+}
+
+.code-search input,
+.code-search button {
+    height: 50rpx !important;
+    min-height: 50rpx !important;
+    line-height: 48rpx !important;
+}
+
+.code-search button {
+    top: 0;
+    right: 0;
+    border-radius: 50rpx !important;
+    padding: 0 !important;
+    width: 100rpx !important;
+}
+
+/**
+ * 智能识别
+ */
+.intelligent-identification {
+    transition-property: height;
+    transition-duration: .3s;
+    will-change: height;
+}
+
+/**
+ * 别名
+ */
+.alias-title {
+    width: 100rpx;
+}
+
+.alias-btn {
+    width: 120rpx;
+    height: 48rpx;
+    line-height: 48rpx;
+    border-radius: 13px;
+    text-align: center;
+    margin-right: 24rpx;
+}
+
+.alias-add input {
+    height: 48rpx;
+    line-height: 48rpx;
+    width: 100% !important;
+    border-radius: 50rpx !important;
+    padding-left: 24rpx;
+    padding-right: 105rpx;
+}
+
+.alias-add button {
+    height: 48rpx !important;
+    min-height: 48rpx !important;
+    line-height: 48rpx !important;
+    top: 0;
+    right: 0;
+    border-radius: 50rpx !important;
+    padding: 0 !important;
+    width: 100rpx !important;
+}
+
+.alias-edit button {
+    margin: 0;
+    height: 48rpx !important;
+    min-height: 48rpx !important;
+    line-height: 48rpx !important;
+    padding: 0 24rpx;
+}
+
+.alias-edit button:first-child {
+    border-top-left-radius: 50rpx;
+    border-bottom-left-radius: 50rpx;
+}
+
+.alias-edit button:last-child {
+    border-top-right-radius: 50rpx;
+    border-bottom-right-radius: 50rpx;
+}
+
+.default-title {
+    width: 200rpx !important;
+}
+
+.label-edit-right {
+    padding-right: 130rpx;
+}
+
+/**
+ * 底部保存按钮
+ */
+.bottom-line-exclude {
+    padding-left: 66rpx;
+    padding-right: 66rpx;
+}
+
+.bottom-line-exclude button {
+    height: 88rpx;
+    line-height: 88rpx;
+}

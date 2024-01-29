@@ -1,0 +1,27 @@
+/*
+* 导航
+*/
+.nav-base .item {
+    width: 14.28%;
+}
+
+/*
+* 列表
+*/
+.goods-base {
+    min-height: 160rpx;
+    margin-left: 180rpx;
+}
+.goods-title {
+    line-height: 36rpx;
+}
+.list-item .goods-item:not(:last-child) {
+    border-bottom: 1px dashed #efefef;
+}
+.goods-item {
+    padding: 20rpx 10rpx;
+}
+.goods-image {
+    width: 160rpx;
+    height: 160rpx;
+}

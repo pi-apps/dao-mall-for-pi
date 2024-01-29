@@ -1,0 +1,16 @@
+.user-avatar {
+    width: 80rpx;
+    height: 80rpx !important;
+}
+
+/**
+ * 多语言
+ */
+.popup-language {
+    height: 100vh;
+}
+
+.popup-language .list {
+    height: calc(100vh - 95rpx);
+    overflow-y: auto;
+}

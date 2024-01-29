@@ -1,0 +1,59 @@
+/*
+* 导航
+*/
+.nav-base .item {
+    width: 16.66%;
+}
+
+.order-scroll {
+    height: calc(100vh - 80rpx);
+}
+
+/*
+* 列表
+*/
+.goods-base {
+    min-height: 160rpx;
+    margin-left: 180rpx;
+}
+
+.goods-image {
+    width: 160rpx;
+    height: 160rpx;
+}
+
+.warehouse-group-icon {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.orderaftersale-btn-text {
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+/**
+* 支付方式
+*/
+.payment-list .item {
+    width: 50%;
+}
+
+.payment-list .item-content {
+    padding: 20rpx 10rpx;
+}
+
+.payment-list .item-content image {
+    width: 50rpx;
+    height: 50rpx !important;
+}
+
+/**
+* 合并支付按钮
+*/
+.pay-merge-submit {
+    width: 100%;
+    height: 88rpx !important;
+    line-height: 88rpx !important;
+}

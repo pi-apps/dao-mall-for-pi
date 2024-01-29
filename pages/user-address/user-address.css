@@ -1,0 +1,31 @@
+.default-address {
+    display: inline-block;
+    padding: 0 10rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    background: #FFEFC2;
+    color: #B77717;
+}
+
+.address-alias {
+    display: inline-block;
+    padding: 0 10rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+}
+
+/**
+ * 底部按钮 
+ */
+.btn-bottom {
+    padding: 42rpx 46rpx;
+}
+
+.btn-bottom button {
+    height: 88rpx;
+    line-height: 88rpx;
+}
+
+.submit-list button {
+    width: calc(50% - 10rpx);
+}

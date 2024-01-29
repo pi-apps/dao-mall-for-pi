@@ -1,0 +1,1259 @@
+{
+    "pages": [{
+            "path": "pages/index/index",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                // #ifdef MP-ALIPAY
+                "transparentTitle": "always",
+                "titlePenetrate": "YES",
+                // #endif
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "white",
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/goods-category/goods-category",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                // #ifdef MP-ALIPAY
+                "transparentTitle": "always",
+                "titlePenetrate": "YES",
+                // 该页不显示滚动条
+                "scrollIndicator": "none",
+                // #endif
+                "enablePullDownRefresh": false,
+                // 禁止页面下拉
+                "disableScroll": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/cart/cart",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                // #ifdef MP-ALIPAY
+                "transparentTitle": "always",
+                "titlePenetrate": "YES",
+                // 该页不显示滚动条
+                "scrollIndicator": "none",
+                // #endif
+                "enablePullDownRefresh": false,
+                // 禁止页面下拉
+                "disableScroll": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user/user",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                // #ifdef MP-ALIPAY
+                "transparentTitle": "always",
+                "titlePenetrate": "YES",
+                // #endif
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/cart-page/cart-page",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                // #ifdef MP-ALIPAY
+                "transparentTitle": "always",
+                "titlePenetrate": "YES",
+                // 该页不显示滚动条
+                "scrollIndicator": "none",
+                // #endif
+                "enablePullDownRefresh": false,
+                // 禁止页面下拉
+                "disableScroll": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/buy/buy",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/web-view/web-view",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/paytips/paytips",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/goods-search/goods-search",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/goods-detail/goods-detail",
+            "style": {
+                // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || H5 || APP
+                "navigationStyle": "custom",
+                // #endif
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/goods-comment/goods-comment",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-address/user-address",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-address-save/user-address-save",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-order/user-order",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-order-detail/user-order-detail",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-order-comments/user-order-comments",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-favor/user-favor",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-goods-comments/user-goods-comments",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-goods-comments-form/user-goods-comments-form",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/message/message",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-integral/user-integral",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-goods-browse/user-goods-browse",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-orderaftersale/user-orderaftersale",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/user-orderaftersale-detail/user-orderaftersale-detail",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+
+            }
+        },
+        {
+            "path": "pages/extraction-address/extraction-address",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/common/open-setting-location/open-setting-location",
+            "style": {
+                // #ifndef MP-TOUTIAO
+                "navigationStyle": "custom",
+                // #endif
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/common/agreement/agreement",
+            "style": {
+                // #ifndef MP-TOUTIAO
+                "navigationStyle": "custom",
+                // #endif
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/customview/customview",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/design/design",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/error/error",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/article-category/article-category",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/article-detail/article-detail",
+            "style": {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/setup/setup",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/personal/personal",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/logout/logout",
+            "style": {
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": ""
+            }
+        }
+    ],
+    "subPackages": [{
+            "root": "pages/plugins/seckill",
+            "pages": [{
+                "path": "index/index",
+                "style": {
+                    // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                    "navigationStyle": "custom",
+                    // #endif
+                    // #ifdef MP-ALIPAY
+                    "transparentTitle": "auto",
+                    "titlePenetrate":"YES",
+                    // #endif
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/coupon",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "shop/shop",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user/user",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/membershiplevelvip",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "buy/buy",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user/user",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order/order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order-detail/order-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "profit/profit",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "profit-detail/profit-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "poster/poster",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "team/team",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "member-code/member-code",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/distribution",
+            "pages": [{
+                    "path": "user/user",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order/order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order-detail/order-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "profit/profit",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "profit-detail/profit-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "team/team",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "map/map",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "recommend-list/recommend-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "recommend-detail/recommend-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "recommend-form/recommend-form",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "poster/poster",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "extraction/extraction",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "extraction-apply/extraction-apply",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "extraction-order/extraction-order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "extraction-switch/extraction-switch",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "introduce/introduce",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "promotion-user/promotion-user",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "promotion-order/promotion-order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "visit-list/visit-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "visit-form/visit-form",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/wallet",
+            "pages": [{
+                    "path": "user/user",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "recharge/recharge",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "cash-auth/cash-auth",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "cash-create/cash-create",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "wallet-log-detail/wallet-log-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-recharge-detail/user-recharge-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-cash-detail/user-cash-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-transfer-detail/user-transfer-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "payment-code/payment-code",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "transfer/transfer",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/excellentbuyreturntocash",
+            "pages": [{
+                    "path": "profit/profit",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "profit-detail/profit-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/weixinliveplayer",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "search/search",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/exchangerate",
+            "pages": [{
+                "path": "currency/currency",
+                "style": {
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/invoice",
+            "pages": [
+                {
+                    "path": "invoice/invoice",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "invoice-detail/invoice-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "invoice-saveinfo/invoice-saveinfo",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order/order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/signin",
+            "pages": [{
+                    "path": "user/user",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-qrcode-detail/user-qrcode-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-qrcode-saveinfo/user-qrcode-saveinfo",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-coming-list/user-coming-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/points",
+            "pages": [{
+                "path": "index/index",
+                "style": {
+                    // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                    "navigationStyle": "custom",
+                    // #endif
+                    // #ifdef MP-ALIPAY
+                    "transparentTitle": "auto",
+                    "titlePenetrate":"YES",
+                    // #endif
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/brand",
+            "pages": [{
+                "path": "index/index",
+                "style": {
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/shop",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "search/search",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "design/design",
+                    "style": {
+                        "enablePullDownRefresh": true
+                    }
+                },
+                {
+                    "path": "favor/favor",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "license/license",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/activity",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/label",
+            "pages": [{
+                "path": "detail/detail",
+                "style": {
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/blog",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "search/search",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "comments/comments",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-list/user-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "form/form",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/express",
+            "pages": [{
+                "path": "detail/detail",
+                "style": {
+                    "enablePullDownRefresh": true,
+                    "navigationBarTitleText": ""
+                }
+            }]
+        },
+        {
+            "root": "pages/plugins/realstore",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "search/search",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "favor/favor",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "orderallot-list/orderallot-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "orderallot-detail/orderallot-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "batchorder-list/batchorder-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "frequencycard-list/frequencycard-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "frequencycard-used/frequencycard-used",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/binding",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/delivery",
+            "pages": [{
+                    "path": "order/order",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "order-detail/order-detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "logistics/logistics",
+                    "style": {
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/ask",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "form/form",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-detail/user-detail",
+                    "style": {
+                        // #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ || MP-KUAISHOU || APP
+                        "navigationStyle": "custom",
+                        // #endif
+                        // #ifdef MP-ALIPAY
+                        "transparentTitle": "auto",
+                        "titlePenetrate":"YES",
+                        // #endif
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "user-list/user-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "goods-list/goods-list",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "comments/comments",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/intellectstools",
+            "pages": [{
+                    "path": "goods-comments/goods-comments",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/scanpay",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "tips/tips",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/thirdpartylogin",
+            "pages": [{
+                    "path": "index/index",
+                    "style": {
+                        "disableScroll": true,
+                        "enablePullDownRefresh": false,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/magic",
+            "pages": [{
+                    "path": "detail/detail",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        },
+        {
+            "root": "pages/plugins/ordergoodsform",
+            "pages": [{
+                    "path": "order/order",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "navigationBarTitleText": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTitleText": "Pi DAO City",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#f5f5f5",
+        "backgroundColorBottom": "#f5f5f5"
+    },
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#333",
+        "backgroundColor": "#fff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/images/common/tabbar/home.png",
+                "selectedIconPath": "static/images/common/tabbar/home.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/goods-category/goods-category",
+                "iconPath": "static/images/common/tabbar/category.png",
+                "selectedIconPath": "static/images/common/tabbar/category.png",
+                "text": "分类"
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "iconPath": "static/images/common/tabbar/cart.png",
+                "selectedIconPath": "static/images/common/tabbar/cart.png",
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "static/images/common/tabbar/user.png",
+                "selectedIconPath": "static/images/common/tabbar/user.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

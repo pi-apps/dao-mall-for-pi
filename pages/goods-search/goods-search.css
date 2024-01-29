@@ -1,0 +1,156 @@
+/**
+ * 顶部搜索
+ */
+.top-search-input {
+    padding-right: 80rpx;
+}
+.top-search-right {
+    top: 20rpx;
+    right: 20rpx;
+}
+.top-search-submit {
+    line-height: 66rpx;
+    height: 66rpx;
+}
+.top-search-right .badge-icon {
+    top: -4px;
+    right: 10rpx;
+}
+
+/**
+* 排序导航
+*/
+.nav-sort-content .item {
+    height: 80rpx;
+    line-height: 80rpx;
+    width: calc(20% - 33.33rpx);
+}
+.nav-sort-content .item .icon {
+    width: 26rpx;
+    height: 26rpx !important;
+}
+.screening-submit,
+.show-type-submit {
+    width: 46rpx;
+    height: 46rpx !important;
+    top: 20rpx;
+}
+.screening-submit {
+    right: 82rpx;
+}
+.show-type-submit {
+    right: 16rpx;
+}
+
+/**
+* 商品列表
+*/
+.scroll-box {
+    height: calc(100vh - 176rpx);
+}
+.data-list .item {
+    width: calc(50% - 10rpx);
+}
+.data-list .item:nth-child(2n) {
+    float: right;
+}
+.data-list .item:nth-child(2n+1) {
+    float: left;
+}
+.data-list .item .goods-img {
+    width: 100%;
+    height: 380rpx !important;
+}
+
+/**
+* 条件
+*/
+.search-map {
+    height: calc(100vh - 160rpx);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.search-map,
+.search-map .search-submit {
+    width: 660rpx;
+}
+.map-keywords {
+    padding: 0 20rpx;
+    line-height: 66rpx;
+    height: 66rpx;
+    font-size: 26rpx;
+    box-sizing: border-box;
+}
+.map-nav text:first-child {
+    font-weight: bold;
+}
+.map-nav .arrow-bottom {
+    top: 0;
+    right: 10rpx;
+    padding-right: 46rpx;
+}
+.map-item {
+    line-height: 66rpx;
+}
+.map-content {
+    line-height: 60rpx;
+}
+.map-content .item {
+    margin-bottom: 20rpx;
+}
+.map-text-item .item,
+.map-images-text-item .item {
+    padding: 0 15rpx;
+    border: 1px solid transparent;
+}
+.map-images-text-item .item {
+    vertical-align: middle;
+    border: 1px solid #eee;
+    width: 150rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+}
+.map-images-text-item .item image {
+    width: 150rpx;
+    height: calc(100% - 8rpx);
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rpx;
+}
+.search-map .search-submit {
+    left: 0;
+    bottom: 0;
+}
+.search-map .search-submit button {
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+/**
+* 品牌基础信息
+*/
+.brand-info {
+    height: 160rpx;
+}
+.brand-info image,
+.brand-info .info-logo-empty {
+    width: 300rpx;
+    height: 130rpx;
+    border: 1px solid #eee;
+}
+.brand-info .info-logo-empty {
+    line-height: 130rpx;
+    font-weight: bold;
+}
+.brand-info .info-right {
+    width: calc(100% - 330rpx);
+}
+.brand-info .info-name {
+    line-height: 56rpx;
+    font-weight: bold;
+}
+.brand-info .info-desc {
+    font-size: 28rpx;
+    line-height: 40rpx;
+    min-height: 80rpx;
+}
